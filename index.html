@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advíkova Stránka</title>
+    <link rel="stylesheet" href="inline.css">
+    <script src="https://kit.fontawesome.com/ca3137883a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ca3137883a.js" crossorigin="anonymous"></script>
+    <script>
+       function openModal() {
+			document.getElementById("myModal").style.display = "block";
+		}
+
+		function closeModal() {
+			document.getElementById("myModal").style.display = "none";
+		}
+
+    </script>
+</head>
+<body onload="openModal()">
+
+    <div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<h1>VÍTEJTE NA MÉM WEBU!</h1>
+            <h2>NEZAPOMEŇTE SI ZAŠKRTNOUT ODBĚR NEWSLETTER!</h2>
+            <form>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="consent">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    Souhlasím se <a href="#zpracovani_osobnich_udaju">zpracováním osobních údajů</a>
+                </label>
+                <input type="submit" value="Přihlásit se">
+            </form>
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="-2 -2 580 516"><path class="star" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+            
+		</div>
+	</div>
+<header>
+    <div class="logo">
+        <img src="https://play-lh.googleusercontent.com/3wReLLObI6rQP0QEut9h_9qR2AVBpZ7iBptTmnDH-Z3gpwTOtK-ZddV2oo6-ZUX4yhQ" alt="Logo" width="200px" height="200px">
+    </div>
+    <h1>The Famous Czech Rap</h1>
+    <i class="fa-solid fa-microphone" id="mic"></i>
+    <i class="fa-solid fa-joint" id="mazi"></i>
+    <i class="fa-solid fa-whiskey-glass" id="whiskey"></i>
+</header>
+
+<nav> 
+    <ul>
+        <li><a href="#uvod">Úvodní stránka</a></li> 
+        <li><a href="#seznam">Seznam </a></li>
+        <li><a href="#rozbor">Rozbor</a></li>
+        <li><a href="#informace">Tvůrce webu</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="galerie">Galerie</a></li>
+    </ul>
+</nav>
+
+<body>
+    <main>
+        <br>
+        <section id="uvod" class="flex-container">
+            <div class="flex-container">
+                
+                <div class="image" id="k1">
+                </div>
+                <div class="text">
+                    <h2>Úvodní stránka:</h2>
+                    <a href="#uvod"></a><p>Vítám vás na webu, kde se dozvíte o TOP 5 nejsledovanějších rapperech v České republice za posledních pět let.tudíž se na něm nachází pouze ti, kteří od té doby vydali album nebo singl. Dozvíte se základní informace o každém umělci,  rozbor každého umělce a na závěr fotografii daného umělce. Na zavěr bych chtěl říct, že se jedná čistě o můj názor, tudíž o tom kdo patří mezi nejsledovanějších umělce v České republice mužete mít svůj názor.</p>
+                </div>
+            </div>
+        </section>
+        <section id="rozbor" class="flex-container">
+            <div class="flex-container">
+                <div class="image" id="k2">
+                </div>
+                <div class="text">
+                    <h2>Rozbor:</h2>
+                    <a href="#rozbor"></a><p>Zde později bude podrobný rozbor všech jednotlivých interpretu.</p>
+                </div>
+            </div>
+        </section>
+
+<br>
+        <section id="informace" class="flex-container">
+            <div class="flex-container">
+                <div class="image" id="k3">
+                </div>
+                <div class="text">
+                    <h2>Tvůrce webu:</h2>
+                    <a href="#informace"></a><p>Jmenuji se Adam Veselý. Je mi 16 let a vítejte na mém druhém projektu. Psaní webu se teprvé učím, ale zlepšuji se každým dnem. Poprosím o trpělivost a čas. Již brzy se web zlepší, jak po obsahové, tak i po vzhledové stránce.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="kontakt" class="flex-container">
+            <div class="flex-container">
+                <div class="image" id="k4">
+                </div>
+                <div class="text">
+                    <h2>Kontakt:</h2>
+                    <a href="#kontakt"></a><p>Email: veselya6@gmail.com</p>
+             
+                </div>
+            </div>
+        </section>
+
+        <p><section id="seznam"><h2>Seznam:</h2></section><a href="#seznam"></a></p>
+        <table>
+            <tr>
+                <th>Hudební Jméno</th>
+                <th>Realné Jméno</th>
+                <th>Datum Narození</th>
+                <th>věk</th>
+                <th>Debutové album</th>
+                
+            </tr>
+            <tr>
+                <td>Yzomandias</td>
+                <td>Jakub Vlček</td>
+                <td>21.března 1991</td>
+                <td>31 let</td>
+                <td>Pod vlivem</td>
+               
+            </tr>
+            <tr>
+                <td>Viktor Sheen</td>
+                <td>Viktor Dundič</td>
+                <td>5. srpna 1993</td>
+                <td>29 let</td>
+                <td>Pod povrchem</td>
+               
+            </tr>
+            <tr>
+                <td>Ektor</td>
+                <td>Marko Elefteriadis</td>
+                <td>4. prosince 1985</td>
+                <td>37 let</td>
+                <td>Airon Meidan</td>
+               
+            </tr>
+            <tr>
+                <td>Calin</td>
+                <td>Călin Panfili</td>
+                <td>11. srpna 1997</td>
+                <td>25 let</td>
+                <td>Svědomí</td>
+                
+            </tr>
+            <tr>
+                <td>Nik Tendo</td>
+                <td>Dominik Citta</td>
+                <td>19. srpna 1993</td>
+                <td>29 let</td>
+                <td>GoldKid</td>
+               
+            </tr>
+        </table>
+    </main>
+
+    <br>    <br> 
+    <div>
+        <div id="nadpis">
+            <br>                  <br>
+            <h1>Galerie:</h1>
+        </div>
+
+        <a href="galerie"></a><div class="galerie">
+            <div class="obrazek" id="gallery-item1"></div>
+            <div class="obrazek" id="gallery-item2"></div>
+            <div class="obrazek" id="gallery-item3"></div>
+            <div class="obrazek" id="gallery-item4"></div>
+            <div class="obrazek" id="gallery-item5"></div>
+        </div>
+    </div>
+
+        <br>              <br>
+    <footer>© 2023 Adam Veselý</footer>
+    
+</body>
+</html>
